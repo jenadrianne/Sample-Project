@@ -1,0 +1,118 @@
+body {
+    background-color:black;
+}
+
+.filter{
+    background-color:black;
+    padding: 2%;
+    position: relative;
+    border-bottom: goldenrod 10px solid;
+}
+
+#filter-text{
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+}
+
+#main-article-container{
+    background-color:whitesmoke;
+    padding: 2%;
+    position: relative;
+}
+
+img{ 
+    width: 100%;
+    height: auto;
+}
+
+
+.wrapper { 
+    overflow:hidden;
+  }
+  
+.wrapper div {
+    position: relative;
+    padding: 1%
+}
+
+.article_1 {
+float:left; 
+width:30%;
+border:2px solid #000;
+margin: 1%;
+}
+
+.article_2 { 
+overflow:hidden;
+width:30%;
+border:2px solid #000;
+margin: 1%;
+}
+
+.article_3 { 
+float:right; 
+width:30%;
+border:2px solid #000;
+margin: 1%;
+}
+
+@media screen and (max-width: 1024px) {
+.article_1 {
+    float:left; 
+    width:30%;
+    border:2px solid #000;
+    margin: 1%;
+    }
+
+    .article_2 { 
+    overflow:hidden;
+    width:30%;
+    border:2px solid #000;
+    margin: 1%;
+    }
+
+    .article_3 { 
+    float:right; 
+    width:30%;
+    border:2px solid #000;
+    margin: 1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.article_1 {
+    float:left; 
+    width:30%;
+    border:2px solid #000;
+    margin: 1%;
+    }
+
+    .article_2 { 
+    overflow:hidden;
+    width:30%;
+    border:2px solid #000;
+    margin: 1%;
+    }
+
+    .article_3 { 
+    float:left; 
+    width:30%;
+    border:2px solid #000;
+    margin: 1%;
+    }
+}
+
+.artitleTitle{
+    font-weight: bold;
+}
+
+.artitleTitle:hover{
+    font-weight: bold;
+    color:rgb(240, 177, 20);
+}
+
+.article_1:hover, .article_2:hover, .article_3:hover{
+    background-color :rgb(211, 207, 207);
+}
+
+
